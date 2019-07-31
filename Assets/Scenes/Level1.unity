@@ -340,7 +340,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   circuit: {fileID: 1614126886}
   lookAheadForTargetOffset: 1.5
-  lookAheadForTargetFactor: 0.1
+  lookAheadForTargetFactor: -0.05
   lookAheadForSpeedOffset: 1
   lookAheadForSpeedFactor: 0
   progressStyle: 0
@@ -372,6 +372,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xSpeed: 20
   xRange: 10
+  yRange: 4
+  positionPitchFactor: -3
+  throwPitchFactor: -10
+  positionYawFactor: 3
+  throwRollFactor: -15
 --- !u!1 &1487034201
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,7 +587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4864935814021868, guid: b24cc39cb5d5432498ca3a1eef73168c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.21
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 4864935814021868, guid: b24cc39cb5d5432498ca3a1eef73168c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -619,6 +624,10 @@ PrefabInstance:
     - target: {fileID: 4864935814021868, guid: b24cc39cb5d5432498ca3a1eef73168c, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4864935814021868, guid: b24cc39cb5d5432498ca3a1eef73168c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b24cc39cb5d5432498ca3a1eef73168c, type: 3}
