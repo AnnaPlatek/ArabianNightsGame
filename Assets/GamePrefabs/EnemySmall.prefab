@@ -312,6 +312,7 @@ GameObject:
   - component: {fileID: 8326022190624718141}
   - component: {fileID: 8353071212750893599}
   - component: {fileID: 8343444361551925291}
+  - component: {fileID: 8778687592419794544}
   m_Layer: 0
   m_Name: EnemySmall
   m_TagString: Untagged
@@ -379,6 +380,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8778687592419794544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8331504117668535167}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.865557, y: 4.241986, z: 11.309123}
+  m_Center: {x: 0.0000004768371, y: -0.000006198883, z: -0.0000011920928}
 --- !u!1 &8331650945375322605
 GameObject:
   m_ObjectHideFlags: 0

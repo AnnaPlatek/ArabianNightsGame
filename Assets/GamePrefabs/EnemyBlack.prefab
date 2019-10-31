@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 3553850502508855043}
   - component: {fileID: 3546540054588870223}
   - component: {fileID: 3536269080246556725}
+  - component: {fileID: 6888585346834537802}
   m_Layer: 0
   m_Name: EnemyBlack
   m_TagString: Untagged
@@ -334,6 +335,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6888585346834537802
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3551036587444432867}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 12.589765, y: 1.8212523, z: 10.850527}
+  m_Center: {x: 0, y: -0.000008016825, z: 0}
 --- !u!1 &3551050345177477553
 GameObject:
   m_ObjectHideFlags: 0
